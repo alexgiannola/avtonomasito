@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avtonoma | Impara a investire in autonomia</title>
+  <link rel="icon" type="image/png" href="images/logo/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <img src="images/logo/logo-white.png" alt="Avtonoma" class="logo-img"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <span class="logo-text">avt<span class="logo-a">o</span>noma</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#percorso">Il percorso</a></li>
+      <li><a href="#come-funziona">Come funziona</a></li>
+      <li><a href="#prezzi">Percorsi</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="https://calendly.com/avtonoma-call/1a-consulenza-gratuita" target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-cta">Prenota una call gratuita</a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <span class="tag-dark">Il percorso definitivo per diventare Autonomo</span>
+  <h1>Impara a investire.<br><em>Per sempre, da solo.</em></h1>
+  <p>Un percorso per portarti da zero alla piena autonomia finanziaria.<br>Non avrai bisogno di un consulente: dopo il nostro percorso sarai in grado di gestire da solo tutti gli aspetti della tua vita finanziaria.</p>
+  <div class="hero-ctas">
+    <a href="https://calendly.com/avtonoma-call/1a-consulenza-gratuita" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Prenota una call gratuita</a>
+    <a href="#percorso" class="btn btn-outline-white btn-lg">Scopri il percorso</a>
+  </div>
+  <div class="hero-trust">
+    <div class="hero-trust-item">
+      <strong>3-12 mesi</strong>
+      <span>a seconda del tuo livello di partenza</span>
+    </div>
+    <div class="hero-trust-sep"></div>
+    <div class="hero-trust-item">
+      <strong>1-to-1</strong>
+      <span>coaching personale</span>
+    </div>
+    <div class="hero-trust-sep"></div>
+    <div class="hero-trust-item">
+      <strong>1-to-many</strong>
+      <span>percorso con una classe ristretta</span>
+    </div>
+    <div class="hero-trust-sep"></div>
+    <div class="hero-trust-item">
+      <strong>10+ anni</strong>
+      <span>di esperienza sui mercati</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problema">
+  <div class="container">
+    <span class="tag-light">Il problema</span>
+    <div class="problem-grid">
+      <div class="problem-text">
+        <h2>Hai uno stipendio.<br>I tuoi soldi, però,<br><em>non lavorano per te.</em></h2>
+        <p>Ogni mese lavori duro, ma i tuoi risparmi restano fermi sul conto corrente. Non per mancanza di volontà, ma perché nessuno ti ha mai insegnato come fare davvero.</p>
+        <ul class="pain-list">
+          <li><span class="pain-icon"></span>Troppa informazione online, troppo rumore, zero chiarezza</li>
+          <li><span class="pain-icon"></span>Banche e promotori con conflitti di interesse</li>
+          <li><span class="pain-icon"></span>Corsi online generici che non si adattano alla tua situazione</li>
+          <li><span class="pain-icon"></span>Paura di sbagliare e perdere quello che hai</li>
+          <li><span class="pain-icon"></span>Non sai da dove iniziare, o come continuare dopo i primi passi</li>
+          <li><span class="pain-icon"></span>Non vuoi pagare un consulente a vita</li>
+        </ul>
+      </div>
+      <div class="problem-cards">
+        <div class="problem-card">
+          <div class="problem-card-num">Scenario 1</div>
+          <strong>Il fai-da-te caotico</strong>
+          <p>Segui consigli da YouTube, Reddit, TikTok. Compri qualcosa a caso. Non sai mai se stai facendo bene o male.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-card-num">Scenario 2</div>
+          <strong>La delega cieca</strong>
+          <p>Vai in banca. Ti vendono fondi con commissioni alte. Paghi qualcuno che lavora per sé, non per te.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-card-num">Scenario 3</div>
+          <strong>Il rimandare eterno</strong>
+          <p>"Lo faccio il prossimo anno." Ogni anno che passa è un anno di interessi composti che perdi per sempre.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAM INTRO -->
+<section id="percorso">
+  <div class="container section-center">
+    <span class="tag-dark">La soluzione</span>
+    <h2 class="section-heading-dark">Il Percorso <em>Avtonoma</em></h2>
+    <p class="section-sub-dark">Non un corso preregistrato. Non una consulenza una-tantum. Un vero percorso one-to-one che ti insegna a investire, così non avrai mai più bisogno di nessuno.</p>
+
+    <div class="program-overview">
+      <div class="program-overview-text">
+        <h3>Un coach al tuo fianco, dalla teoria alla pratica.</h3>
+        <p>In 3, 6 o 12 mesi, lavoriamo insieme sulla tua situazione reale.</p>
+        <p>Partiamo da zero (o da dove sei ora): ti diamo strumenti, conoscenze e il metodo affinché tu possa costruire la tua strategia e il tuo piano. Tu prendi le decisioni, ma le rivediamo insieme e analizziamo cosa stai facendo bene e cosa dovresti migliorare, finché non sarai in grado di capire e gestire tutto da solo.</p>
+        <p>Al termine del percorso gestisci il tuo piano in piena autonomia.</p>
+        <p>Senza più bisogno di consulenti, banche o app magiche.</p>
+        <p class="program-reassurance">Se non ti sentirai ancora sicuro, continueremo a supportarti!</p>
+        <div class="program-pills">
+          <span class="pill">Sessioni 1:1 live</span>
+          <span class="pill">Videocorsi dedicati</span>
+          <span class="pill">Aggiornamenti mercati</span>
+          <span class="pill">Supporto WhatsApp</span>
+        </div>
+      </div>
+      <div class="program-stats">
+        <div class="stat-box">
+          <div class="num">3 mesi</div>
+          <div class="label">percorso base<br>per chi parte da zero</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">6 mesi</div>
+          <div class="label">percorso completo<br>dalla teoria all'ottimizzazione</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">12 mesi</div>
+          <div class="label">percorso esteso<br>per chi parte da zero e vuole approfondire tutto</div>
+        </div>
+        <div class="stat-box">
+          <div class="num">∞</div>
+          <div class="label">autonomia acquisita<br>per sempre</div>
+        </div>
+        <p class="program-format-note">Da solo o in gruppo, non cambia la qualità di ciò che riceverai!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="come-funziona">
+  <div class="container section-center">
+    <span class="tag-light">Come funziona</span>
+    <h2 class="section-heading-light">Tre fasi.<br><em>Un percorso lineare.</em></h2>
+    <p class="section-sub-light">Ogni fase ha un obiettivo preciso. Niente di generico, costruiamo insieme, settimana dopo settimana.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Fase 01</div>
+        <div class="step-icon">🔍</div>
+        <h3>Analisi & fondamenta</h3>
+        <p>Partiamo dalla tua situazione reale: entrate, uscite, obiettivi, orizzonte temporale e tolleranza al rischio. Definiamo insieme il piano formativo su misura.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Fase 02</div>
+        <div class="step-icon">📈</div>
+        <h3>Costruzione & pratica</h3>
+        <p>Ti diamo gli strumenti e le conoscenze per costruire la tua strategia, passo dopo passo, mentre ci condividerai ogni scelta. Videocorsi dedicati, sessioni live, esercizi pratici. Impari facendo.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Fase 03</div>
+        <div class="step-icon">🎓</div>
+        <h3>Autonomia & ottimizzazione</h3>
+        <p>Sai monitorare, ribilanciare, adattare. Gestisci il tuo piano in piena autonomia. Questa fase ti rende indipendente: l'obiettivo finale del percorso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INCLUDED -->
+<section id="include">
+  <div class="container section-center">
+    <span class="tag-dark">Cosa include</span>
+    <h2 class="section-heading-dark">Tutto quello che ti serve<br><em>per non aver più bisogno di un consulente (non di noi).</em></h2>
+    <p class="section-sub-dark">Il percorso combina coaching personale, formazione strutturata e aggiornamenti continui.</p>
+    <div class="includes-grid">
+      <div class="include-card featured">
+        <div class="include-icon">🧭</div>
+        <h3>Coaching 1:1 o 1:many: il cuore del percorso</h3>
+        <p>Sessioni live regolari con il tuo coach dedicato. Non risposte preconfezionate, lavoriamo sulla tua situazione, le tue domande, i tuoi dubbi.</p>
+        <ul class="include-list">
+          <li>Sessioni video one-to-one con cadenza regolare</li>
+          <li>Piano d'azione personalizzato e revisabile</li>
+          <li>Supporto diretto via WhatsApp tra una sessione e l'altra</li>
+          <li>Revisione continua del percorso formativo</li>
+        </ul>
+        <p class="include-note">Potrai o meno condividere i tuoi dubbi con la classe: se sei più timido, lo farai in privato tramite email o chat. Cercheremo di creare classi con il medesimo punto di partenza: se sei già avanzato, non partirai dalla classe "Come investo".</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">🎬</div>
+        <h3>Videocorsi dedicati</h3>
+        <p>Materiali formativi strutturati per accompagnare ogni fase del percorso, dalla teoria alla pratica operativa.</p>
+        <ul class="include-list">
+          <li>Moduli progressivi per livello</li>
+          <li>Disponibili on-demand, rivedibili sempre</li>
+          <li>Aggiornati regolarmente</li>
+        </ul>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">📊</div>
+        <h3>Aggiornamenti mercati</h3>
+        <p>Ogni mese, oltre alle call del percorso, una call dedicata di aggiornamento sui mercati finanziari: così puoi continuare a prendere le tue scelte, ma hai sempre a disposizione un professionista che ti racconta cosa sta accadendo, cosa guardare e come farlo!</p>
+        <ul class="include-list">
+          <li>Analisi in linguaggio semplice</li>
+          <li>Contestualizzata alla tua formazione</li>
+          <li>Nessun allarmismo, solo lucidità</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DURATA / PERCORSO -->
+<section id="prezzi">
+  <div class="container section-center">
+    <span class="tag-light">I percorsi</span>
+    <h2 class="section-heading-light">Due modi<br><em>per renderti autonomo.</em></h2>
+    <p class="section-sub-light">Stesso obiettivo, due formati. Scegli il percorso più adatto a te: entrambi durano 3 o 6 mesi e iniziano con una call gratuita.</p>
+    <p class="pricing-intro-note">Il percorso da 12 mesi è molto lungo e intensivo: consigliato a chi parte completamente da zero e vuole capire tutto, dalle basi ai concetti più avanzati (efficientamento fiscale, stock picking, factor investing e altro).</p>
+    <div class="pricing-grid">
+      <div class="pricing-card highlighted">
+        <div class="pricing-badge">Massima personalizzazione</div>
+        <div class="pricing-duration">One-to-One</div>
+        <h3>Percorso individuale</h3>
+        <p>Tu e il tuo coach. Un percorso costruito al 100% sulla tua situazione, al tuo ritmo, con il massimo livello di attenzione.</p>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li>Sessioni 1:1 individuali con coach dedicato</li>
+          <li>Analisi approfondita della tua situazione</li>
+          <li>Piano formativo completamente personalizzato</li>
+          <li>Accesso a tutti i videocorsi</li>
+          <li>Aggiornamenti mercati periodici</li>
+          <li>Supporto prioritario via WhatsApp</li>
+        </ul>
+        <a href="https://calendly.com/avtonoma-call/1a-consulenza-gratuita" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;justify-content:center;">Prenota una call gratuita</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-duration">One-to-Many</div>
+        <h3>Percorso di gruppo</h3>
+        <p>Impari in un piccolo gruppo guidato. Lo stesso metodo, con il valore aggiunto del confronto tra chi affronta il tuo stesso percorso.</p>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li>Sessioni live in piccolo gruppo</li>
+          <li>Stesso metodo del percorso individuale</li>
+          <li>Confronto e community tra partecipanti</li>
+          <li>Accesso ai videocorsi dedicati</li>
+          <li>Aggiornamenti mercati periodici</li>
+          <li>Supporto via WhatsApp di gruppo</li>
+        </ul>
+        <a href="https://calendly.com/avtonoma-call/1a-consulenza-gratuita" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy" style="width:100%;justify-content:center;">Prenota una call gratuita</a>
+      </div>
+    </div>
+    <p class="pricing-note">Nessun acquisto prima di aver parlato con noi. La call esplorativa è gratuita e senza impegno.</p>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <div class="container section-center">
+    <span class="tag-dark">Il team</span>
+    <h2 class="section-heading-dark">Chi costruisce<br><em>il tuo percorso.</em></h2>
+    <p class="section-sub-dark">Non robot, non chatbot. Persone con anni di esperienza reale sui mercati, dalla tua parte.</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/team/alex-giannola.jpg" alt="Alex Giannola" class="team-photo-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="team-photo-placeholder" style="display:none;"><span>[ foto Alex Giannola ]</span></div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Alex Giannola</div>
+          <div class="team-role">Founder & Head of Financial Education</div>
+          <div class="team-title">Iscritto OCF</div>
+          <div class="team-bio">
+            <p>Laurea magistrale in Finanza e Risk Management. Dal 2015 nel mondo della finanza: studia i mercati, investe e, negli ultimi cinque anni, aiuta le persone a costruire una cultura finanziaria solida basata sull'indipendenza.</p>
+            <p>In Avtonoma si concentra sulla parte di formazione legata a pianificazione e investimenti, ottimizzazione di rendimenti attesi e rischio del portafoglio. Ti spiega come affrontare la volatilità dei mercati e il giusto mindset per affrontarli.</p>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/team/alberto-monaco.jpg" alt="Alberto Monaco" class="team-photo-img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="team-photo-placeholder" style="display:none;"><span>[ foto Alberto Monaco ]</span></div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Alberto Monaco</div>
+          <div class="team-role">Founder & Head of Technology</div>
+          <div class="team-title">Data Scientist</div>
+          <div class="team-credential">Esame OCF in attesa di iscrizione!</div>
+          <div class="team-bio">
+            <p>Laurea magistrale in Data Science & Machine Learning, esperienza maturata in alcuni dei principali istituti finanziari europei. Sviluppa gli strumenti tecnologici e i modelli di analisi dati a supporto dei contenuti formativi del percorso.</p>
+            <p>In Avtonoma è l'autore di tutti gli strumenti che utilizzerai durante il percorso: dagli strumenti di analisi e confronto ETF ai google sheet per calcolare la tua situazione patrimoniale e la tua asset allocation ideale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container-sm section-center">
+    <span class="tag-light">FAQ</span>
+    <h2 class="section-heading-light">Domande frequenti.</h2>
+    <p class="section-sub-light">Hai dubbi? Probabilmente li ha avuti qualcun altro prima di te.</p>
+    <div class="faq-list" style="text-align:left;">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Devo avere già soldi da investire per iniziare?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">No. Il percorso è aperto a tutti, indipendentemente dal patrimonio. Quello che conta è avere la volontà di imparare e un minimo di risparmio mensile su cui iniziare a lavorare.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Qual è il target del percorso?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Il percorso è pensato principalmente per giovani lavoratori (25-40 anni) che hanno iniziato a guadagnare ma non hanno ancora una strategia finanziaria chiara. Non è necessaria nessuna conoscenza di base.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Cosa differenzia questo percorso da un corso online?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Un corso online è generico, preregistrato e non si adatta a te. Avtonoma è un percorso 1:1 costruito sulla tua situazione reale. Il tuo coach lavora con te, non ti trasmette informazioni in modo unidirezionale.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Il percorso include raccomandazioni di investimento personalizzate?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">No. Il servizio erogato tramite Avtonoma ha natura educativa e di coaching finanziario personale. Non include raccomandazioni personalizzate di investimento, né gestione di portafogli ai sensi del TUF. Ti insegniamo a comprendere e decidere in autonomia.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Quante sessioni include il percorso?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Il numero esatto viene definito durante la call gratuita in base al percorso scelto e alle tue esigenze. Per il percorso da 3 mesi si parte da una sessione ogni 10-14 giorni; per quello da 6 mesi la cadenza si adatta all'avanzamento. Per il percorso di classe si valuterà il livello dei partecipanti e gli obiettivi, al fine di creare classi omogenee.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Cosa succede al termine del percorso?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Investi in autonomia. Questo è l'obiettivo. Non vogliamo che tu dipenda da noi per sempre: vogliamo che tu sappia cosa fare, quando farlo e perché. Al termine mantieni accesso ai materiali e puoi acquistare sessioni singole di aggiornamento se e quando ne hai bisogno. Potrai rimanere iscritto al servizio, a un costo molto più basso del pacchetto iniziale, per partecipare alle videocall mensili di aggiornamento sull'andamento dei mercati.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Perché partire con una call gratuita?
+          <div class="faq-chevron"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Perché ogni situazione è diversa e vogliamo capire la tua prima di proporti qualsiasi cosa. La call dura circa 30 minuti: nessuna vendita forzata, solo un confronto onesto su dove sei e dove vuoi arrivare. Inoltre, se sei interessato al percorso di classe, la call serve anche a valutare il tuo livello e a bloccarti il posto: il percorso di classe parte solo quando si raggiungono 5 nuovi iscritti.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINALE -->
+<section id="cta-finale">
+  <div class="cta-glow"></div>
+  <div class="container-sm">
+    <span class="tag-dark" style="margin-left:auto;margin-right:auto;display:table;">Inizia ora</span>
+    <h2>Smetti di rimandare.<br><em>Parti con una call gratuita.</em></h2>
+    <p>30 minuti. Nessun impegno. Solo una conversazione onesta sulla tua situazione e su cosa puoi fare per cambiare.</p>
+    <a href="https://calendly.com/avtonoma-call/1a-consulenza-gratuita" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Prenota una call gratuita</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <a href="#" class="footer-logo">
+      <img src="images/logo/logo-white.png" alt="Avtonoma" style="height:28px;width:auto;display:block;"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+      <span class="logo-text">avt<span class="logo-a">o</span>noma</span>
+    </a>
+    <div class="footer-links">
+      <a href="#percorso">Il percorso</a>
+      <a href="#prezzi">Percorsi</a>
+      <a href="#team">Team</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:info@avtonoma.com">Contatti</a>
+    </div>
+    <span class="footer-copy">© 2026 Avtonoma. Tutti i diritti riservati.</span>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Nota legale.</strong> Alex Giannola è consulente finanziario autonomo iscritto all'Organismo di Vigilanza e Tenuta dell'Albo Unico dei Consulenti Finanziari (OCF). I contenuti e i percorsi formativi offerti tramite Avtonoma hanno natura educativa e di coaching finanziario personale. Il servizio erogato tramite Avtonoma <strong>non costituisce consulenza finanziaria ai sensi del D.Lgs. 58/1998 (TUF)</strong>, non include raccomandazioni personalizzate di investimento, gestione di portafogli, né sollecitazione all'acquisto o alla vendita di strumenti finanziari. Ogni decisione di investimento rimane di esclusiva responsabilità dell'utente. Investire comporta rischi, inclusa la possibile perdita del capitale. Avtonoma è un progetto sviluppato da Exevior SCF Srl.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
