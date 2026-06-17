@@ -261,16 +261,12 @@ nav {
   background: rgba(255,255,255,0.04); border: 1px solid var(--navy-border);
   border-radius: var(--radius-lg); padding: 32px;
   transition: border-color 0.3s, background 0.3s;
+  text-align: left;
 }
 .include-card:hover { border-color: rgba(211,58,155,0.4); background: rgba(255,255,255,0.06); }
 .include-card.featured {
   grid-column: span 2;
   background: rgba(211,58,155,0.07); border-color: rgba(211,58,155,0.25);
-}
-.include-icon {
-  width: 48px; height: 48px; border-radius: 12px;
-  background: linear-gradient(135deg, rgba(211,58,155,0.2), rgba(45,91,228,0.2));
-  display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 20px;
 }
 .include-card h3 { font-size: 19px; font-weight: 700; color: #fff; margin-bottom: 10px; }
 .include-card p { font-size: 14px; color: var(--muted-dark); line-height: 1.7; }
